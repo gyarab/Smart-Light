@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#673AB7</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="ActivityTheme">
+        <item name="android:windowLayoutInDisplayCutoutMode">
+            shortEdges
+        </item>
+    </style>
+    <style name="MyProgressBarRectangle" parent="@style/Widget.AppCompat.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/oval_progressbar</item>
+        <item name="android:minHeight">100dp</item>
+        <item name="android:minWidth">100dp</item>
+    </style>
+
+    <style name="ButtonDraw" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#00BCD4</item>
+        <item name="colorButtonNormal">#FFFFFF</item>
+        <item name="android:buttonCornerRadius">10dp</item>
+
+    </style>
+
+
+</resources>
